@@ -4,12 +4,14 @@ import re
 html = open("index.html")
 
 soup = bs(html, 'html.parser')
-divs = soup.findAll(attrs={'class':'coveragePercentage'})
-covs = soup.findAll(attrs={'class':'coverage_ledgend'})
+divs = soup.findAll(attrs={'class':'coverage_percentage'})
+covs = soup.findAll(attrs={'class':'coverage_legend'})
 
-prj="01Max"
-clazz="ds.Max"
+prj="24Grafo"
+clazz="ds.Grafo"
 
+print divs
+print covs
 
 print "PRJ;CLASSE;Cobertos;Gerados;Cobertura;Mortos;Total;Escore"
 
