@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup as bs
 from datetime import datetime
 
 if len(sys.argv) < 5:
-	print("error: run.py <Evo|Randoop|JTExpert> <prj> <source class name> <seed>")
-	print("Example: run.py Evo")
+	print("error: run-one.py <Evo|Randoop|JTExpert> <prj> <source class name> <seed>")
+	print("Example: run-one.py Evo")
 	sys.exit(1)
 
 tool = sys.argv[1]

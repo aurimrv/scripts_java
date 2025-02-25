@@ -1,0 +1,15 @@
+# Requires Java tools
+# javac 1.8.0_341
+# maven-3.8.5
+# In case of Linux, change the .bashrc file and includes the following lines after tools installation
+#
+# export JAVA_HOME=/local/tools/jdk1.8.0
+# export MVN_HOME=/local/tools/apache-maven-3.8.5
+# export MAVEN_OPTS=-Xmx512m
+#
+# export PATH=$JAVA_HOME/bin:$MVN_HOME/bin:$PATH
+#
+
+# Also requires the following Python packages
+
+beautifulsoup4>=4.13.3
